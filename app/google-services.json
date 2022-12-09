@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "665742706338",
+    "firebase_url": "https://fastdelivary-21d12-default-rtdb.firebaseio.com",
+    "project_id": "fastdelivary-21d12",
+    "storage_bucket": "fastdelivary-21d12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665742706338:android:2eea632d8038dfc05639fb",
+        "android_client_info": {
+          "package_name": "com.example.fasterdelivary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665742706338-tgmtfd18ted5oc8nkooerasbbevdumms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDbpzHZCeahtMVFzX8hjr_6X-VvV066QA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665742706338-tgmtfd18ted5oc8nkooerasbbevdumms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

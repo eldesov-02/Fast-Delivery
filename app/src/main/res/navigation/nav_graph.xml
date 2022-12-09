@@ -22,20 +22,23 @@
         <action
             android:id="@+id/action_mainFragment_to_basketFragment"
             app:destination="@id/basketFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_winBonusFragment"
+            app:destination="@id/winBonusFragment" />
     </fragment>
     <fragment
         android:id="@+id/foodFragment"
-        android:name="com.example.fasterdelivary.FoodFragment"
+        android:name="com.example.fasterdelivary.screens.food.FoodFragment"
         android:label="fragment_food"
         tools:layout="@layout/fragment_food" />
     <fragment
         android:id="@+id/marketFragment"
-        android:name="com.example.fasterdelivary.MarketFragment"
+        android:name="com.example.fasterdelivary.screens.market.MarketFragment"
         android:label="fragment_market"
         tools:layout="@layout/fragment_market" />
     <fragment
         android:id="@+id/pharmacyFragment"
-        android:name="com.example.fasterdelivary.PharmacyFragment"
+        android:name="com.example.fasterdelivary.screens.pharmacy.PharmacyFragment"
         android:label="fragment_pharmacy"
         tools:layout="@layout/fragment_pharmacy" />
     <fragment
@@ -49,6 +52,9 @@
         <action
             android:id="@+id/action_basketFragment_to_detailFragment"
             app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_basketFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
     </fragment>
     <fragment
         android:id="@+id/addFoodFragment"
@@ -68,4 +74,9 @@
             android:id="@+id/action_detailFragment_to_basketFragment"
             app:destination="@id/basketFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/winBonusFragment"
+        android:name="com.example.fasterdelivary.screens.win.WinBonusFragment"
+        android:label="fragment_price"
+        tools:layout="@layout/fragment_price" />
 </navigation>

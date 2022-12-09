@@ -1,6 +1,9 @@
 package com.example.fasterdelivary.model
 
+import android.widget.ImageView
+
 class UserModel (
-    val imgId: Int,
+    val imgid: Int,
+    val img: ImageView,
     val myImageViewText: String
     )

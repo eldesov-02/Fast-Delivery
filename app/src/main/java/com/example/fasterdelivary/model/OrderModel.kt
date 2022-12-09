@@ -4,6 +4,7 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import java.io.FileDescriptor
+import java.io.Serializable
 
 
 @Entity(tableName = "order_table")
@@ -16,4 +17,4 @@ class OrderModel (
 
     @ColumnInfo
     var description: String = ""
-)
+) : Serializable

@@ -1,4 +1,4 @@
-package com.example.fasterdelivary
+package com.example.fasterdelivary.screens.food
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,8 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.RecyclerView.Recycler
-import com.example.fasterdelivary.databinding.ActivityMainBinding
+import com.example.fasterdelivary.R
 import com.example.fasterdelivary.maski.adapter.UserAdapter
 import com.example.fasterdelivary.model.UserModel
 import kotlinx.android.synthetic.main.fragment_food.*
@@ -27,6 +26,8 @@ class FoodFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_food, container, false)
+         initial()
+         myUser()
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -45,11 +46,7 @@ class FoodFragment : Fragment() {
     fun myUser(): ArrayList<UserModel>{
         val userList = ArrayList<UserModel>()
 
-        val user = UserModel(R.drawable.pizza,"DEGIRMEN")
-        userList.add(user)
 
-        val user2 = UserModel(R.drawable.img,"Donerkz")
-        userList.add(user2)
 
         return userList
     }
