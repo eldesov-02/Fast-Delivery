@@ -4,4 +4,15 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="rules">Rules</string>
     <string name="about">About</string>
+    <string name="sushiSyoGun">SyoGun sushi and pizza</string>
+    <string name="burgerKing">Burger King</string>
+    <string name="bahandi">Bahandi</string>
+    <string name="salamBro">Salam Bro</string>
+    <string name="italianPasta">Italian Pasta</string>
+    <string name="sushiRolls">Sushi and Rolls</string>
+    <string name="theBestSteakHouse">The Best Steak House</string>
+    <string name="mr.Burger">Mr.Burger</string>
+    <string name="periPeri">Peri Peri</string>
+    <string name="pastaCafe">Pasta Cafe</string>
+
 </resources>

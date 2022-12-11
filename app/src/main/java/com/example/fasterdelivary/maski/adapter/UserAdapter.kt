@@ -12,11 +12,6 @@ import kotlinx.android.synthetic.main.item_user_layout.view.*
 class UserAdapter: RecyclerView.Adapter<UserAdapter.UserViewHolder>() {
 
     private var userList = ArrayList<UserModel>()
-    private var imageIdList = listOf(
-        R.drawable.img,
-        R.drawable.normpizza1,
-        R.drawable.pizza
-    )
 
     class UserViewHolder(view: View): RecyclerView.ViewHolder(view)
 
@@ -26,17 +21,11 @@ class UserAdapter: RecyclerView.Adapter<UserAdapter.UserViewHolder>() {
     }
 
     override fun onBindViewHolder(holder: UserViewHolder, position: Int) {
-        holder.itemView.myImageView.id = imageIdList[position]
-        holder.itemView.myImageViewText.text = userList[position].myImageViewText
-
     }
 
     override fun getItemCount(): Int {
     return userList.size
     }
 
-    fun setList(list: List<UserModel>){
-        userList = list as ArrayList<UserModel>
-        notifyDataSetChanged()
-    }
+
 }

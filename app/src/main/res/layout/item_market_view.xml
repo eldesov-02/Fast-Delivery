@@ -1,78 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardCornerRadius="8dp"
-    android:layout_margin="16dp">
+>
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/image_item_market"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/bahandi"/>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-    <LinearLayout
-        android:layout_margin="10dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="name Of The Product:">
-        </TextView>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Product"
-            android:id="@+id/nameOfTheProduct"
-            android:layout_marginLeft="8dp">
-        </TextView>
-    </LinearLayout>
+    <TextView
+    android:text="Названия заведения"
+    android:id="@+id/text_item_market"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
 
 
+</LinearLayout>
 
-    <LinearLayout
-        android:layout_margin="10dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Price:">
-        </TextView>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Product"
-            android:id="@+id/price"
-            android:layout_marginLeft="8dp">
-        </TextView>
-    </LinearLayout>
-
-
-
-    <LinearLayout
-        android:layout_margin="10dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="type Of The Product:">
-        </TextView>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Product"
-            android:id="@+id/type"
-            android:layout_marginLeft="8dp">
-        </TextView>
-    </LinearLayout>
-
-    </LinearLayout>
-
-
-</androidx.cardview.widget.CardView>

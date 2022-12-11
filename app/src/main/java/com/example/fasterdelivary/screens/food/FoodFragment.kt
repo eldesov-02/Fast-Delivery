@@ -26,21 +26,12 @@ class FoodFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_food, container, false)
-         initial()
-         myUser()
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        initial()
-        myUser()
-    }
 
-    private fun initial() {
-        recyclerView = rv_user
-        adapter = UserAdapter()
-        recyclerView.adapter = adapter
-        adapter.setList(myUser())
+        myUser()
     }
 
     fun myUser(): ArrayList<UserModel>{

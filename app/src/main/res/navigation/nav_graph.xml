@@ -25,6 +25,9 @@
         <action
             android:id="@+id/action_mainFragment_to_winBonusFragment"
             app:destination="@id/winBonusFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_mainActivity2"
+            app:destination="@id/mainActivity2" />
     </fragment>
     <fragment
         android:id="@+id/foodFragment"
@@ -79,4 +82,9 @@
         android:name="com.example.fasterdelivary.screens.win.WinBonusFragment"
         android:label="fragment_price"
         tools:layout="@layout/fragment_price" />
+    <activity
+        android:id="@+id/mainActivity2"
+        android:name="com.example.fasterdelivary.MainActivity2"
+        android:label="activity_main2"
+        tools:layout="@layout/activity_main2" />
 </navigation>
