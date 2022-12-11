@@ -4,18 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FDFDFD"
-    tools:context=".screens.food.FoodFragment">
-
+    tools:context=".screens.food1.FoodFragment">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_user"
+            android:id="@+id/recycler_market"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:itemCount="5"
-            tools:listitem="@layout/item_user_layout" />
+            tools:listitem="@layout/item_market_view">
+
+        </androidx.recyclerview.widget.RecyclerView>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -31,12 +31,12 @@
     </fragment>
     <fragment
         android:id="@+id/foodFragment"
-        android:name="com.example.fasterdelivary.screens.food.FoodFragment"
+        android:name="com.example.fasterdelivary.screens.market.MarketFragment"
         android:label="fragment_food"
         tools:layout="@layout/fragment_food" />
     <fragment
         android:id="@+id/marketFragment"
-        android:name="com.example.fasterdelivary.screens.market.MarketFragment"
+        android:name="com.example.fasterdelivary.screens.food1.FoodFragment"
         android:label="fragment_market"
         tools:layout="@layout/fragment_market" />
     <fragment

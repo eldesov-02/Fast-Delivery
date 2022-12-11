@@ -15,4 +15,24 @@
     <string name="periPeri">Peri Peri</string>
     <string name="pastaCafe">Pasta Cafe</string>
 
+    <string name="tabletki">Tabletki</string>
+    <string name="сиропы">Siropi</string>
+    <string name="postilki">Postilki</string>
+    <string name="preporati">Preporati</string>
+    <string name="spirti">Spirti</string>
+    <string name="Binti">binti</string>
+    <string name="Spreii">spreii</string>
+
+    <string name="juice">Juice</string>
+    <string name="chokolates">Chokolates</string>
+    <string name="chipsi">Chipsi</string>
+    <string name="cakes">Cakes</string>
+    <string name="fruits">Fruits</string>
+    <string name="vegetables">Vegetables</string>
+    <string name="salats">Salats</string>
+    <string name="sigaretes">Sigaretes</string>
+    <string name="ketchupes">ketchupes</string>
+
+
+
 </resources>

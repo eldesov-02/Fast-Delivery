@@ -1,10 +1,9 @@
-package com.example.fasterdelivary.model
+package com.example.fasterdelivary.screens.market
 
-import android.content.res.Resources
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 
 data class Market(
     @StringRes val stringResourceId: Int,
     @DrawableRes val imageResourseId: Int
-    )
+)
